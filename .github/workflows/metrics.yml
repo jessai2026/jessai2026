@@ -26,7 +26,10 @@ jobs:
           config_timezone: Asia/Shanghai
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
-          plugin_languages: yes
+          # The languages plugin renders "0 Languages" while this runs on
+          # GITHUB_TOKEN: nearly every repo here is private and invisible to it.
+          # Re-enable (and re-run) once METRICS_TOKEN is set.
+          plugin_languages: no
           plugin_languages_details: percentage
           plugin_languages_limit: 8
           plugin_languages_other: yes
