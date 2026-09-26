@@ -57,14 +57,7 @@ Multi-agent pipelines that research, write, review and publish — plus the edit
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./metrics/overview-dark.svg" />
-  <img alt="GitHub metrics" src="./metrics/overview.svg" width="46%" align="top" />
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./metrics/languages-dark.svg" />
-  <img alt="Most used languages" src="./metrics/languages.svg" width="46%" align="top" />
-</picture>
+<img alt="GitHub metrics" src="./metrics/metrics.svg" width="70%" />
 
 <br/><br/>
 
