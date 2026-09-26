@@ -17,6 +17,7 @@ jobs:
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: jessai2026
+          github_token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
